@@ -14,7 +14,7 @@ main()
 
     if (fptr == 0)
     {
-        printf("Error opening the file! Sorry! QQ!\n");
+        printf("Error opening the file! Sorry!\n");
         exit(1);
     }
 
