@@ -32,7 +32,7 @@ main()
     // Now read the file backwards
 
     fseek(fptr, -1, SEEK_END); //Minus 1 byte from the end
-    printf("Here is the file backwards... I guess:\n");
+    printf("Here is the file backwards:\n");
     for (i = 26; i > 0; i--)
     {
         letter = fgetc(fptr);
